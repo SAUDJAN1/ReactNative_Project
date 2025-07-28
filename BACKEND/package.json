@@ -1,0 +1,32 @@
+{
+  "name": "reactnative_full_stack_project",
+  "version": "1.0.0",
+  "description": "this is a beginner project ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node Server.js",
+    "dev": "nodemon Server.js"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "ExpressJs",
+    "NodeJs",
+    "Mongodb"
+  ],
+  "author": "Syed Saud Jan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4"
+  },
+  "devDependencies": {
+    "chalk": "^5.4.1",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10"
+  }
+}
